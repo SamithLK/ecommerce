@@ -1,0 +1,137 @@
+
+Apr 15, 2024 17:29:48.70 NEW SESSION
+Apr 15, 2024 17:29:48.70 [9356:10632:0415/172948.704:ERROR:policy_logger.cc(157)] :components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc(161) Cloud management controller initialization aborted as CBCM is not enabled. Please use the `--enable-chrome-browser-cloud-management` command line flag to enable it if you are not using the official Google Chrome build.
+Apr 15, 2024 17:29:54.31 [9356:10632:0415/172954.311:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Apr 15, 2024 17:29:55.56 [9356:10632:0415/172955.566:ERROR:smartscreen_dns_resolver.cc(110)] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://edgeservices.bing.com/edgesvc/shell?&darkschemeovr=1&FORM=SHORUN&udsnav=1&setlang=en-GB&udsedgeshop=1&clientscopes=noheader,cspgrd,coauthor,chat,visibilitypm,devtoolsapi,udsedgeshop,udsinwin10,ntpquery,udsdlpconsent,udsfrontload,docvisibility,channelstable,&copilotsupported=0,&browserversion=123.0.2420.97,&loadsource=frontload,&udsframed=1
+Apr 15, 2024 17:30:04.73 [9356:10632:0415/173004.734:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Apr 15, 2024 17:30:05.99 [9356:10632:0415/173005.993:ERROR:smartscreen_dns_resolver.cc(110)] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://edgeservices.bing.com/edgesvc/shell?darkschemeovr=1&FORM=SHORUN&udsnav=1&setlang=en-GB&udsedgeshop=1&clientscopes=noheader%2Ccspgrd%2Ccoauthor%2Cchat%2Cvisibilitypm%2Cdevtoolsapi%2Cudsedgeshop%2Cudsinwin10%2Cntpquery%2Cudsdlpconsent%2Cudsfrontload%2Cdocvisibility%2Cchannelstable%2C%2Cudspreretry&copilotsupported=0%2C&browserversion=123.0.2420.97%2C&loadsource=frontload%2C&udsframed=1
+Apr 15, 2024 17:30:15.98 [9356:10632:0415/173015.981:ERROR:smartscreen_dns_resolver.cc(110)] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://edgeservices.bing.com/edgesvc/shell?darkschemeovr=1&FORM=SHORUN&udsnav=1&setlang=en-GB&udsedgeshop=1&clientscopes=noheader%2Ccspgrd%2Ccoauthor%2Cchat%2Cvisibilitypm%2Cdevtoolsapi%2Cudsedgeshop%2Cudsinwin10%2Cntpquery%2Cudsdlpconsent%2Cudsfrontload%2Cdocvisibility%2Cchannelstable%2C%2Cudspreretry&copilotsupported=0%2C&browserversion=123.0.2420.97%2C&loadsource=frontload%2C&udsframed=1
+Apr 15, 2024 17:36:35.13 [9356:10632:0415/173635.138:ERROR:pinning_win.cc(1021)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 15, 2024 17:36:35.14 [9356:10632:0415/173635.140:ERROR:pinning_win.cc(1021)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 15, 2024 17:36:35.14 [9356:10632:0415/173635.140:ERROR:pinning_win.cc(1021)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 15, 2024 17:36:35.14 [9356:10632:0415/173635.140:ERROR:pinning_win.cc(1021)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 15, 2024 17:36:35.14 [9356:10632:0415/173635.141:ERROR:pinning_win.cc(1021)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 15, 2024 17:36:35.14 [9356:10632:0415/173635.141:ERROR:pinning_win.cc(1021)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 15, 2024 17:36:35.14 [9356:10632:0415/173635.143:ERROR:pinning_win.cc(1021)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 15, 2024 17:36:35.14 [9356:10632:0415/173635.143:ERROR:pinning_win.cc(1021)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+
+Apr 26, 2024 09:07:40.81 NEW SESSION
+Apr 26, 2024 09:07:40.83 [17036:10756:0426/090740.690:ERROR:chrome_browser_cloud_management_controller.cc(161)] Cloud management controller initialization aborted as CBCM is not enabled. Please use the `--enable-chrome-browser-cloud-management` command line flag to enable it if you are not using the official Google Chrome build.
+Apr 26, 2024 09:07:48.43 [17036:10756:0426/090748.431:ERROR:fallback_task_provider.cc(127)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Apr 26, 2024 09:07:52.16 [17036:10756:0426/090752.161:ERROR:fallback_task_provider.cc(127)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Apr 26, 2024 09:07:55.81 [17036:10756:0426/090755.813:ERROR:fallback_task_provider.cc(127)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Apr 26, 2024 09:08:12.40 [17036:10756:0426/090812.406:ERROR:CONSOLE(2)] "Blocked autofocusing on a <cib-action-bar> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/E0D8f6LPn63nvrzItNxioWhqrVQ.br.js (2)
+Apr 26, 2024 09:08:12.50 [17036:10756:0426/090812.508:ERROR:CONSOLE(2)] "Blocked autofocusing on a <textarea> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/E0D8f6LPn63nvrzItNxioWhqrVQ.br.js (2)
+Apr 26, 2024 09:08:20.87 [17036:10756:0426/090820.878:ERROR:fallback_task_provider.cc(127)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Apr 26, 2024 09:08:23.47 [17036:10756:0426/090823.473:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 26, 2024 09:08:23.47 [17036:10756:0426/090823.474:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 26, 2024 09:08:23.47 [17036:10756:0426/090823.475:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 26, 2024 09:08:23.47 [17036:10756:0426/090823.476:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 26, 2024 09:08:23.47 [17036:10756:0426/090823.476:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 26, 2024 09:08:23.47 [17036:10756:0426/090823.476:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 26, 2024 09:08:23.47 [17036:10756:0426/090823.478:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 26, 2024 09:08:23.48 [17036:10756:0426/090823.479:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+
+Apr 27, 2024 01:17:11.89 NEW SESSION
+Apr 27, 2024 01:17:11.90 [12820:8972:0427/011711.894:ERROR:chrome_browser_cloud_management_controller.cc(161)] Cloud management controller initialization aborted as CBCM is not enabled. Please use the `--enable-chrome-browser-cloud-management` command line flag to enable it if you are not using the official Google Chrome build.
+Apr 27, 2024 01:17:18.15 [12820:8972:0427/011718.153:ERROR:fallback_task_provider.cc(127)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Apr 27, 2024 01:17:38.65 [12820:8972:0427/011738.651:ERROR:CONSOLE(2)] "Blocked autofocusing on a <cib-action-bar> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/E0D8f6LPn63nvrzItNxioWhqrVQ.br.js (2)
+Apr 27, 2024 01:17:38.70 [12820:8972:0427/011738.702:ERROR:CONSOLE(2)] "Blocked autofocusing on a <textarea> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/E0D8f6LPn63nvrzItNxioWhqrVQ.br.js (2)
+Apr 27, 2024 01:17:45.58 [12820:14204:0427/011745.579:ERROR:cert_issuer_source_aia.cc(35)] Error parsing cert retrieved from AIA (as DER):
+Apr 27, 2024 01:17:45.58 ERROR: Couldn't read tbsCertificate as SEQUENCE
+Apr 27, 2024 01:17:45.58 ERROR: Failed parsing Certificate
+Apr 27, 2024 01:17:45.58 
+Apr 27, 2024 01:17:46.06 [12820:14204:0427/011746.066:ERROR:cert_verify_proc_builtin.cc(1058)] CertVerifyProcBuiltin for code.yengo.com failed:
+Apr 27, 2024 01:17:46.06 ----- Certificate i=0 (CN=code.yengo.com) -----
+Apr 27, 2024 01:17:46.06 ERROR: Time is after notAfter
+Apr 27, 2024 01:17:46.06 
+Apr 27, 2024 01:17:46.06 
+Apr 27, 2024 01:19:51.71 [12820:8972:0427/011951.713:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 27, 2024 01:19:51.71 [12820:8972:0427/011951.713:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 27, 2024 01:19:51.71 [12820:8972:0427/011951.713:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 27, 2024 01:19:51.71 [12820:8972:0427/011951.714:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 27, 2024 01:19:51.71 [12820:8972:0427/011951.714:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 27, 2024 01:19:51.71 [12820:8972:0427/011951.714:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 27, 2024 01:19:51.71 [12820:8972:0427/011951.714:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+Apr 27, 2024 01:19:51.71 [12820:8972:0427/011951.714:ERROR:pinning_win.cc(1059)] taskbar_manager_statics->GetDefault(&*taskbar_manager) failed, hr=0x80070490
+
+Apr 29, 2024 15:52:21.64 NEW SESSION
+Apr 29, 2024 15:52:21.66 [15308:7704:0429/155221.644:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 15:52:22.73 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 15:54:01.46 [12304:5124:0429/155401.466:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 15:54:02.88 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 15:56:46.64 [2348:15100:0429/155646.646:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 15:56:47.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 15:56:58.01 [15468:15084:0429/155658.017:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 15:56:58.15 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 15:57:57.17 [11256:14428:0429/155757.177:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 15:57:57.47 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 15:58:35.96 [9672:16672:0429/155835.965:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 15:58:37.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 16:01:29.47 [13316:9072:0429/160129.471:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 16:01:30.61 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 16:02:15.76 [6864:2884:0429/160215.765:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 16:02:16.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 16:02:42.05 [6864:2884:0429/160242.055:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 16:05:21.35 [12284:10736:0429/160521.356:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 16:05:21.88 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 16:05:52.21 [12784:13740:0429/160552.215:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 16:05:52.65 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 16:06:17.62 [14132:12616:0429/160617.622:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 29, 2024 16:06:18.66 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Apr 29, 2024 18:44:15.73 NEW SESSION
+Apr 29, 2024 18:44:15.75 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 18:50:08.79 Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 29, 2024 18:50:13.36 [10032:16252:0429/185013.363:ERROR:extension_registrar.cc(539)] Failed to unregister service worker for extension llbcnfanfmjhpedaedhbcnpgeepdnnok
+Apr 29, 2024 19:10:00.82 [10032:16252:0429/191000.825:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+Apr 30, 2024 24:18:42.55 NEW SESSION
+Apr 30, 2024 24:18:42.57 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 01, 2024 10:18:30.42 NEW SESSION
+May 01, 2024 10:18:30.43 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 01, 2024 10:19:52.40 [10580:14328:0501/101952.406:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+May 01, 2024 10:42:16.10 [10580:14328:0501/104216.101:ERROR:CONSOLE(1)] "Request Overlay.highlightNode failed. {"code":-32600,"message":"Overlay must be enabled before a tool can be shown"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+May 01, 2024 10:44:43.19 [10580:14328:0501/104443.198:ERROR:CONSOLE(1)] "Request Overlay.highlightNode failed. {"code":-32600,"message":"Overlay must be enabled before a tool can be shown"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+May 01, 2024 11:25:50.53 [10580:14328:0501/112550.531:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+May 01, 2024 11:45:21.29 [10580:6748:0501/114521.002:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 01, 2024 11:45:23.33 [10580:6748:0501/114523.014:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 11:46:11.69 [10580:6748:0501/114611.612:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 11:47:59.06 [10580:6748:0501/114759.068:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 11:51:53.05 [10580:6748:0501/115152.974:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 11:57:16.43 [10580:6748:0501/115716.438:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 12:07:16.46 [10580:6748:0501/120716.463:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 12:17:16.47 [10580:6748:0501/121716.474:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 12:27:16.48 [10580:6748:0501/122716.487:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 12:37:16.50 [10580:6748:0501/123716.506:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 12:47:16.51 [10580:6748:0501/124716.514:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 12:56:57.60 [10580:6748:0501/125657.601:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 01, 2024 15:24:45.38 [9280:5768:0501/152445.380:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 15:24:48.05 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 01, 2024 15:31:07.54 [9280:15956:0501/153107.547:ERROR:device_event_log_impl.cc(195)] [15:31:07.548] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 01, 2024 15:54:57.32 [9280:5768:0501/155457.325:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 15:55:17.84 [9280:5768:0501/155517.842:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 15:56:17.75 [9280:5768:0501/155617.752:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 15:57:55.41 [9280:5768:0501/155755.418:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 16:01:16.38 [9280:5768:0501/160116.379:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 16:07:40.19 [9280:5768:0501/160740.197:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 16:17:40.20 [9280:5768:0501/161740.207:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 16:27:40.20 [9280:5768:0501/162740.209:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+
+May 01, 2024 17:28:57.64 NEW SESSION
+May 01, 2024 17:28:57.65 [8288:10924:0501/172857.643:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 17:28:58.18 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 01, 2024 17:29:18.23 [8288:10924:0501/172918.232:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 17:30:15.08 [8288:10924:0501/173015.087:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 17:32:09.52 [8288:10924:0501/173209.521:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 17:35:08.24 [8288:10924:0501/173508.248:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 17:38:37.19 [8288:10924:0501/173837.191:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 17:43:49.22 [8288:10924:0501/174349.224:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 01, 2024 18:01:05.96 [8288:10924:0501/180105.961:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 18:01:28.23 [8288:10924:0501/180128.238:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 18:09:26.67 [8288:10924:0501/180926.670:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 01, 2024 18:34:00.30 [8288:10924:0501/183400.300:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 01, 2024 18:38:49.62 [8288:10924:0501/183849.624:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 01, 2024 18:38:56.44 [8288:10924:0501/183856.444:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 01, 2024 18:39:36.92 [8288:10924:0501/183936.926:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2

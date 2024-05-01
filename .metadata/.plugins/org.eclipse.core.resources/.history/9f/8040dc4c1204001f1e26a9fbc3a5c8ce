@@ -1,0 +1,38 @@
+package com.mypackage.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+
+import com.mypackage.model.Admin;
+
+public class AdminDao {
+	
+	private Connection con;
+	
+	public AdminDao(Connection con) {
+		super();
+		this.con = con;
+	}
+	
+	public boolean saveAdmin(Admin admin) {
+		boolean flag = false;
+
+		try {
+			String query = "insert into admin(name, email, password, phone) values(?, ?, ?, ?)";
+			
+			
+			
+		
+		
+
+			
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return flag;
+	}
+	
+}

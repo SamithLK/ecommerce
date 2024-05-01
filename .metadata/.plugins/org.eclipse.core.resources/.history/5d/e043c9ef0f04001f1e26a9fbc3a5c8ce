@@ -1,0 +1,13 @@
+package com.mypackage.dao;
+import com.mypackage.model.Admin;
+
+public class AdminDao {
+	
+	
+	private Connection con;
+	
+	
+	
+	
+
+}

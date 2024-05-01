@@ -1,0 +1,44 @@
+package com.mypackage.servlet;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.mypackage.connection.DbCon;
+import com.mypackage.dao.OrderDao;
+import com.mypackage.dao.OrderedProductDao;
+
+@WebServlet("/DeleteOrderServlet")
+public class DeleteOrderServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        String testDelete = request.getParameter("testDelete");
+
+        if (testDelete != null && testDelete.equals("true")) {
+            // Test deletion logic (bypass normal form processing)
+            int knownOrderId = 123; // Replace with a known order ID from your database
+            deleteOrderForTest(knownOrderId); // Call method to test deletion
+        } else {
+            // Normal form processing logic (assuming you have code to retrieve orderId from the form)
+            // int orderId = Integer.parseInt(request.getParameter("oid"));
+            // ... your code to process and potentially call deleteOrders from OrderDao
+        }
+    }
+
+    private void deleteOrderForTest(int orderId) {
+        try (OrderDao orderDao = new OrderDao(DbCon.getConnection())) {
+            orderDao.deleteOrders(orderId);
+            // Handle successful deletion (optional)
+            System.out.println("Order with ID: " + orderId + " deleted (test)");
+        } catch (Exception e) {
+            e.printStackTrace();
+            // Handle any exceptions during deletion (optional)
+        }
+    }
+}

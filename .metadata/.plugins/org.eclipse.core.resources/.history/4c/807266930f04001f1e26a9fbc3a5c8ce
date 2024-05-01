@@ -1,0 +1,19 @@
+package com.mypackage.dao;
+import com.mypackage.model.*;
+
+public class AdminDao {
+	
+	public class AdminDao{
+		
+		private Connection con;
+		
+		public AdminDao(Connection con){
+			super();
+		}
+		
+		
+	}
+	
+	
+
+}

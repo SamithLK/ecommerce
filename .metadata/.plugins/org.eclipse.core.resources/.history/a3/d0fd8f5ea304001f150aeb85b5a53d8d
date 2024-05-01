@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Product</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="productName" class="form-label"><b>Product Name</b></label>
+                <input type="text" name="product_name" class="form-control" id="productName" placeholder="Enter product name" required>
+            </div>
+            <div class="mb-3">
+                <label for="productCategory" class="form-label"><b>Category</b></label>
+                <select class="form-select" name="product_category" id="productCategory" required>
+                    <option value="">Select Category</option>
+                    <option value="category1">Category 1</option>
+                    <option value="category2">Category 2</option>
+                    </select>
+            </div>
+            <div class="mb-3">
+                <label for="productPrice" class="form-label"><b>Price</b></label>
+                <input type="number" name="product_price" class="form-control" id="productPrice" placeholder="Enter price" required>
+            </div>
+            <div class="mb-3">
+                <label for="productImage" class="form-label"><b>Product Image</b></label>
+                <input type="file" name="product_image" class="form-control" id="productImage" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Product</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+package com.mypackage.dao;
+
+public class AdminDao {
+	
+	public class AdminDao{
+		
+		private Connection con;
+		
+		public AdminDao(Connection con){
+			super();
+		}
+		
+		
+	}
+	
+	
+
+}

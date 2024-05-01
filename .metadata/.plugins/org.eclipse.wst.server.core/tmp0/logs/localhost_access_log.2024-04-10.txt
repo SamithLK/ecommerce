@@ -1,0 +1,11 @@
+127.0.0.1 - - [10/Apr/2024:21:44:38 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:21:44:41 +0530] "GET /ecommerce/index.jsp HTTP/1.1" 200 7182
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:21:44:41 +0530] "GET /ecommerce/product-images/female-shoes.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:21:44:41 +0530] "GET /ecommerce/product-images/ladis-bag.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:21:44:41 +0530] "GET /ecommerce/product-images/men-suits.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:21:44:41 +0530] "GET /ecommerce/product-images/smoking-e-cigarette.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:21:44:41 +0530] "GET /ecommerce/product-images/men-watch.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:21:44:41 +0530] "GET /ecommerce/product-images/smoking-e-cigarette-2.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:22:03:30 +0530] "GET /ecommerce/index.jsp HTTP/1.1" 200 7182
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:22:03:31 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Apr/2024:22:03:33 +0530] "GET /ecommerce/login.jsp HTTP/1.1" 200 3536

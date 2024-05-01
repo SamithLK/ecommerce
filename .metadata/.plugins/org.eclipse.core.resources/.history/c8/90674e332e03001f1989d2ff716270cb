@@ -1,0 +1,131 @@
+package com.mypackage.dao;
+
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.mypackage.model.User;
+
+
+
+public class UserDao {
+	
+       private Connection con;
+       
+       public UserDao(Connection con) {
+    	   super();
+    	   this.con = con;
+       }
+       
+       
+       public boolean saveUser(User user) {
+		    boolean flag=false;
+    	   
+    	   try {
+    		
+    		   
+    		String query="insert into user(name, email, password, phone, gender, address, city, pincode, state) values(?, ?, ?, ?, ?, ?, ?, ?, ?)";   
+			PreparedStatement psmt = this.con.prepareStatement(query);
+			
+			psmt.setString(1, user.getUserName());
+			psmt.setString(2, user.getUserEmail());
+			psmt.setString(3, user.getUserPassword());
+			psmt.setString(4, user.getUserPhone());
+			psmt.setString(5, user.getUserGender());
+			psmt.setString(6, user.getUserAddress());
+			psmt.setString(7, user.getUserCity());
+			psmt.setString(8, user.getUserPincode());
+			psmt.setString(9, user.getUserState());
+			
+			psmt.executeUpdate();
+			flag=true;
+			
+			
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		}
+    	   
+    	   
+    	   return flag;
+		}
+       
+       
+  public User getUserByEmailPassword(String userEmail,String userPassword) {
+	
+	  User user=null;
+	  
+	  try {
+		  
+		  String query = "select * from user where email=? and password=?";
+		  PreparedStatement psmt = this.con.prepareStatement(query);
+		  psmt.setString(1, userEmail);
+		  psmt.setString(2, userPassword);
+		  
+		  ResultSet set = psmt.executeQuery();
+		  while(set.next()) {
+			  user = new User();
+			  
+			  user.setUserId(set.getInt("userid"));
+			  user.setUserName(set.getString("name"));
+			  user.setUserEmail(set.getString("email"));
+			  user.setUserPassword(set.getString("password"));
+			  user.setUserPhone(set.getString("phone"));
+			  user.setUserGender(set.getString("gender"));
+			  user.setDateTime(set.getTimestamp("registerdate"));
+			  user.setUserAddress(set.getString("address"));
+			  user.setUserCity(set.getString("city"));
+			  user.setUserPincode(set.getString("pincode"));
+			  user.setUserState(set.getString("state"));
+			  
+			  
+			  
+		  }}catch (Exception e){
+		  
+		  e.printStackTrace();
+	  }
+	  
+	  return user;
+	  
+  }
+  
+  public void updateUserAddress(User user) {
+		try {
+			String query = "update user set address = ?, city = ?, pincode = ?, state = ? where userid = ?";
+			PreparedStatement psmt = this.con.prepareStatement(query);
+			psmt.setString(1, user.getUserAddress());
+			psmt.setString(2, user.getUserCity());
+			psmt.setString(3, user.getUserPincode());
+			psmt.setString(4, user.getUserState());
+			psmt.setInt(5, user.getUserId());
+
+			psmt.executeUpdate();
+
+		} catch (SQLException e) {
+			e.printStackTrace()
+		}
+       
+		public void updateUser(User user) {
+			try {
+				String query = "update user set name = ?, email = ?, phone = ?, gender = ?, address = ?, city = ?, pincode = ?, state = ? where userid = ?";
+				PreparedStatement psmt = this.con.prepareStatement(query);
+				psmt.setString(1, user.getUserName());
+				psmt.setString(2, user.getUserEmail());
+				psmt.setString(3, user.getUserPhone());
+				psmt.setString(4, user.getUserGender());
+				psmt.setString(5, user.getUserAddress());
+				psmt.setString(6, user.getUserCity());
+				psmt.setString(7, user.getUserPincode());
+				psmt.setString(8, user.getUserState());
+				psmt.setInt(9, user.getUserId());
+
+				psmt.executeUpdate();
+
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}    
+
+}

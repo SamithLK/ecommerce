@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Category</title>
+</head>
+<body>
+  <h1>Add Category</h1>
+  <form action="AdminUpdateProducts" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="operation" value="addCategory">
+    <div class="form-group">
+      <label for="category_name">Category Name:</label>
+      <input type="text" name="category_name" id="category_name" required>
+    </div>
+    <div class="form-group">
+      <label for="category_img">Category Image (Optional):</label>
+      <input type="file" name="category_img" id="category_img">
+    </div>
+    <button type="submit">Add Category</button>
+  </form>
+</body>
+</html>
+
+

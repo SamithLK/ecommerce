@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="com.mypackage.connection.DbCon"/>
-    <fullyQualifiedTypeName name="com.mypackage.model.Admin"/>
-    <fullyQualifiedTypeName name="com.mypackage.dao.CategoryDao"/>
-</qualifiedTypeNameHistroy>
